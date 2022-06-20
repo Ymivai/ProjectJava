@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:900px;
+}
+
+.portfolioT{
+    text-align: center;
+    font-family: Open Sans;
+    letter-spacing: 0em;
+    
+}
+
+.smallPortfolioText{ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:#6257FE;   
+    margin-top: 10%;   
+}
+
+.bigPortfolioText{ 
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 71px;      
+}
+
+.portfolioImg{
+    display: flex;
+    flex-direction: row;
+    margin-left:3%;
+    text-align:center;
+    margin-top: 4%;
+}
+
+.portImg{
+    margin-left: 3%;
+}
+
+@media screen and (max-width: 1444px){
+    .portImg{
+        margin-left: 1%;
+    }
+    .portImg{
+        height:100%;
+        margin-left: 4%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    .portImg{
+        margin-left: 1%;
+    }
+    .portImg{
+        height:65%;
+        margin-left: 4%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .container4{
+        height:600px;
+    }
+
+    .portImg{
+        height:50%;
+        margin-left: 4%;
+    }
+
+    .bigPortfolioText{ 
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 71px;      
+    }
+}

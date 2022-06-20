@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:900px;
+    text-align: center;
+}
+
+.teamImg{
+    display: flex;
+    flex-direction: row;
+    margin-left:3%
+}
+
+.teamM{
+    margin-left:3%;
+}
+
+.smallPortfolioText2{ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:#6257FE;   
+    margin-top: 10%;   
+}
+
+.bigPortfolioText2{ 
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 71px;      
+}
+
+.teamMember1{
+    height:400px;
+    width: 300px;
+    background-image: url("/Images/team1.png");
+    display: flex;
+    flex-direction: row;
+}
+
+.teamMember2{
+    height:400px;
+    width: 300px;
+    background-image: url("/Images/team2.png");
+    display: flex;
+    flex-direction: row;
+}
+
+.teamMember3{
+    height:400px;
+    width: 300px;
+    background-image: url("/Images/team3.png");
+    display: flex;
+    flex-direction: row;
+}
+
+.teamMember4{
+    height:400px;
+    width: 300px;
+    background-image: url("/Images/team4.png");
+    display: flex;
+    flex-direction: row;
+}
+
+.barTeam{
+    height:75px;
+    width: 300px;
+    background:#6257FE;
+    opacity: 0.8;
+    display:flex;
+    align-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+
+
+.teamT{
+    font-family: Open Sans;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;    
+    text-align:left;
+}
+
+.bigTeam{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px; 
+    margin: 0;
+    margin-top: 5px;  
+    margin-left: 5px;
+}
+
+.smallTeam{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0; 
+    margin-left: 5px;
+}
+
+.linkT{
+    margin-top:8%;
+}
+
+.linkTeam{
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.textTeamTitle{
+    margin-left:2%;
+}
+
+@media screen and (max-width: 1024px){
+    .smallPortfolioText2{  
+        margin-top: 4%;   
+    }
+    .teamM{
+        height:300px;
+        width:200px;
+        background-size: 100%;
+    }
+
+    .barTeam{
+        height:45px;
+        width: 200px;
+    }
+    
+    .linkTeam{
+        padding: 1px;
+        margin-right: 1px;
+        height: 15px;
+    }
+
+    .linkT{
+        margin-top:6%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .container5{
+        height:600px;
+    }
+
+    .teamM{
+        margin-left:1%;
+    }
+
+    .teamM{
+        height:230px;
+        width:170px;
+        background-size: 100%;
+    }
+
+    .barTeam{
+        height:45px;
+        width: 170px;
+    }
+
+    .teamT{
+       font-size: 12px;
+    }
+    
+    .linkTeam{
+        padding: 1px;
+        margin-right: 1px;
+        height: 12px;
+    }
+}
+

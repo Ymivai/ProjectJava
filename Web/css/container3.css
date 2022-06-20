@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.container3{
+    width:100%;
+    height:900px;
+    display: flex;
+}
+
+.left2{
+    width:60%;
+    height: 900px; 
+    float: left;
+}
+
+.right2{
+    width:40%;
+    height: 900px;
+    background:#6257FE;
+    float: right;
+}
+
+.infoService{
+    text-align: left;
+    letter-spacing: 0em;
+    font-family: Open Sans;
+    margin-top: 8%;
+    margin-left:9%; 
+}
+
+.infoServiceSmall{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;  
+    color:#6257FE;   
+}
+
+.infoAgencyBig{
+    font-size: 56px;
+    font-weight: 700, Bold;
+    line-height: 71px;  
+    font-family: Overpass;
+    margin: 0;    
+}
+
+.titleBar{
+    display:flex;
+}
+
+.services1{
+    display:flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-right: 8%;
+}
+
+.services2{
+    display:flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-right: 8%;
+}
+
+.service{
+    width: 35%;
+    margin: 5%;
+}
+
+.services2{
+    display:flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.servTextT{
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;        
+}
+
+.servText{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;        
+}
+
+.line{
+    align-self: center;
+    margin:3%;
+}
+
+.portret{
+    position: absolute;
+    left: 56%;
+    margin-top:7%;
+    height: 78%;
+}
+
+.fone{
+    position: absolute;
+    margin-left: 76%;
+    margin-top: 25%;
+}
+
+
+@media screen and (max-width: 1440px){
+    .fone{
+        position: absolute;
+        margin-left: 63%;
+        margin-top: 34%;
+    }    
+}
+
+@media screen and (max-width: 1024px){
+    .fone{
+        display:none;
+    }    
+
+    .portret{
+       display: none;
+    }
+
+    .left2{
+        width:100%;
+        height: 900px;
+         
+    }
+    
+    .right2{
+        width:0%;
+        height: 0px;
+    }
+
+    .infoService{
+        text-align: center;
+    }
+
+    .services1{
+        margin-left: 22%;
+    }
+
+    .services2{
+        margin-left: 22%;
+    }
+
+    .infoServiceSmall{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 0;  
+        color:#6257FE;   
+    }
+    
+    .infoAgencyBig{
+        font-size: 40px;
+        font-weight: 700, Bold;
+        line-height: 71px;  
+        font-family: Overpass;
+        margin: 0;    
+    }
+
+    .servTextT{
+        font-size: 16px;      
+    }
+    
+    .servText{
+        font-size: 14px;
+    }
+
+}
